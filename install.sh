@@ -3,6 +3,7 @@ git submodule update --remote
 
 #cd into platinum Sub project
 cd extern/platinum
+git checkout tinyupnp
 
 #pull Neptune Runtime subproject
 git submodule update --init
