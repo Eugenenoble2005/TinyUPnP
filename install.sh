@@ -5,7 +5,7 @@ git subproject update --remote
 cd extern/platinum
 
 #pull Neptune Runtime subproject
-git submodule update --init
+git subproject update --init
 
 #Build
 scons
