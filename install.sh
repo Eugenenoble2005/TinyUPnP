@@ -1,11 +1,11 @@
 #ensure platinum submodule has been cloned
-git subproject update --remote
+git submodule update --remote
 
 #cd into platinum Sub project
 cd extern/platinum
 
 #pull Neptune Runtime subproject
-git subproject update --init
+git submodule update --init
 
 #Build
 scons
