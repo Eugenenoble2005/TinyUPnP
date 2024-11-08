@@ -3,7 +3,14 @@ Simple zero config upnp media server for linux computers. No configuration, no s
 
 
 ## Installation
-Build Dependencies are gcc,scons and python. Scons is a python build tool that is available in most Distro's repos. Installing scons should also install it's python dependency.
+If you are on arch linux you can install from the AUR.
+```
+yay -S tinyupnp-git
+```
+
+Otherwise, use the following instructions:
+
+Build Dependencies are gcc,scons and python. Scons is a python based build tool that is available in most Distro's repos. Installing scons should also install it's python dependency.
 # Arch
 ```
 sudo pacman -S scons
